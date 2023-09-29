@@ -67,14 +67,6 @@ main {
   padding: 0;
   opacity: 95%;
 }
-.background {
-    width: 100vw;
-  height: 100vh;
-  background-repeat: no-repeat;
-  margin: 0;
-  padding: 0;
-}
-
 .slider {
     width: 1200px;
     height: 525px;
