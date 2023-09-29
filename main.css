@@ -1,0 +1,234 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    width: 1366px;
+}
+main {
+    display: grid;
+}
+.header {
+  background: #262626;
+  position: fixed;
+  top: 0px;
+  width: 100vw;
+  height: 100px;
+  z-index: 25;
+}
+.logo {
+  font-size: 50px;
+  color: rgb(216, 179, 7);
+  line-height: 1.2;
+  -moz-transform: matrix( 1.04895833333333,0,0,1.04895104895105,0,0);
+  -webkit-transform: matrix( 1.04895833333333,0,0,1.04895104895105,0,0);
+  -ms-transform: matrix( 1.04895833333333,0,0,1.04895104895105,0,0);
+  position: absolute;
+  left: 73.3px;
+  top: 28.15px;
+  z-index: 26;
+}
+
+.header-nav {
+    margin: 0;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 45%;
+    padding-top: 3%;
+
+}
+.header-nav-item {
+    list-style-type: none;
+}
+.header-link {
+    text-decoration: none;
+    color: #a08513;
+}
+.header-link:hover {
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+  line-height: 1.2;
+  transition: 0.5s;
+}
+
+.portfolio {
+    margin: 0;
+    padding: 0;
+}
+.background-image {
+  background-image: url("images/image-1.png");  
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  opacity: 95%;
+  position: fixed;
+  z-index: -1;
+}
+.background {
+    width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
+.slider {
+    width: 1200px;
+    height: 525px;
+    position: absolute;
+    left: 15%;
+    top: 25%;
+    z-index: 22;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-slider {
+    opacity: 90%;
+}
+
+.button-left {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(55, 64, 74);
+    border-radius: 50%;
+
+    margin-top: 20%;
+}
+.button-right {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(55, 64, 74);
+    border-radius: 50%;
+    margin-top: 20%;
+}
+
+.portfolio-image {
+    background-image: url("images/image-2.png");
+    width: 920px;
+    height: 520px;
+    background-repeat: no-repeat;
+    opacity: 100%;
+    border-style: solid ;
+    border-color: rgba(216, 179, 7, 0.5);
+}
+.previous {
+    color: white;
+    text-align: center;
+    margin-top: 15%;
+    font-size: 30px;
+}
+.next {
+    color: white;
+    text-align: center;
+    margin-top: 15%;
+    font-size: 30px;
+}
+
+.text:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 40px;
+    transition: 0.5s;
+}
+.button-slider:hover {
+    opacity: 100%;
+    width: 60px;
+    height: 60px;
+    transition: 0.5s;
+}
+.portfolio-image:hover {
+    opacity: 90%;
+    transition: 0.5s;
+}
+
+.about-me {
+    background-color: rgb(38, 38, 38);
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.title {
+
+  font-size: 29px;
+  color: grey;
+  text-align: justify;
+  width: 90%;
+  height: 650.973px;
+  padding: 3%;
+
+}
+
+.contacts-section {
+    margin: 0;
+    padding: 0;
+}
+.background-image-cont {
+    background-image: url("images/image-3.png");  
+  width: 100vw;
+  height: 510px;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  opacity: 95%;
+}
+
+.contacts-data {
+    width: 400px;
+    margin-left: 50%;
+    padding-top: 5%;
+    font-size: 25px;
+}
+.data {
+    padding-left: 10%;
+    color: white;
+}
+
+.data-title {
+    color: white;
+}
+
+.data-link {
+    text-decoration: none;
+    color: white;
+    color: rgb(198, 149, 198);
+
+}
+.data-link:hover {
+    text-decoration: underline;
+}
+.blue {
+    background: none;
+    color: rgb(96, 180, 180);
+}
+.white {
+    background: none;
+    color: white;
+}
+.data-title {
+    color: rgb(198, 149, 198);
+}
+
+.footer {
+    display: grid;
+}
+
+.background-footer {
+    background-color: rgb(38, 38, 38);
+    width: 100vw;
+    height: 150px;
+    margin: 0;
+    padding: 0;
+    
+}
+.text-footer {
+    text-align: center;
+    color: white;
+    padding-top: 3%;
+}
