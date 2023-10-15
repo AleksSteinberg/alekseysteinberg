@@ -1,0 +1,248 @@
+header {
+	background-image: url('Image/image-2.png');
+}
+h1	{
+	font-size: 3.75rem;
+}
+
+.button-header {
+	color: white;
+	text-decoration: none;
+	background: none;
+	border: none;
+	height: 5.5625rem;
+
+}
+.button-header:hover {
+	background: red;
+
+}
+.navbar {
+	height: 5.5625rem;
+}
+
+.button-contact {
+	color: black;
+	text-decoration: none;
+	background: none;
+	border-color: red;
+	width: 14.1875rem;
+	height: 3.43rem;
+	border-radius: 0.2rem;
+	font-size: 1.125rem;
+	border-style: solid;
+}
+.button-learn {
+	color: black;
+	text-decoration: none;
+	background: none;
+	border-color: red;
+	width: 14.1875rem;
+	height: 3.43rem;
+	border-radius: 0.2rem;
+	font-size: 1.125rem;
+	border-style: solid;
+}
+.button:hover {
+	background: red;
+	color: white;
+}
+
+.icon-top {
+	margin-bottom: 1.8rem;
+	margin-top: ;
+}
+.icon-bottom {
+	margin-bottom: 1.8rem;
+}
+.title-card {
+	margin-bottom: 1.5rem;
+}
+.cards {
+	margin-bottom: 3.52rem;
+}
+
+.provide {
+	margin-top: 6.8rem;
+}
+
+.cards-bottom {
+	margin-bottom: 3.25rem;	
+}
+.all {
+	font-size: 1.375rem;
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+}
+.all:hover {
+	color: red;
+}
+
+.grey {
+	text-decoration: underline;
+}
+
+.future {
+	margin-bottom: 2.375rem;
+}
+
+.future-title {
+	margin-bottom: 2.0625rem;
+}
+
+.img-future {
+	margin-bottom: 5.5rem;
+}
+
+.classes {
+	margin-bottom: 4.1rem;
+}
+
+.meet {
+	margin-top: 8.75rem;
+	margin-bottom: 2.5rem;
+}
+
+.meet-title {
+	margin-bottom: 2.5rem;
+}
+
+.meet-img {
+	margin-bottom: 4.3rem;
+}
+.cont {
+	font-size: 1.125rem;
+	text-decoration: none;
+	color: black;
+}
+.cont:hover {
+	color: red;
+}
+
+.name-title {
+	margin-top: 2.3rem;
+}
+
+.name-link {
+	margin-top: 3.06rem;
+}
+
+.name-pic {
+	margin-top: 1rem;
+}
+
+.input {
+	height: 3.43rem;
+	border: none;
+}
+
+.button-input {
+	color: white;
+	text-decoration: none;
+	background: red;
+	border-color: red;
+	width: 14.1875rem;
+	height: 3.43rem;
+	border-radius: 0.2rem;
+	font-size: 1.125rem;
+	border-style: solid;
+}
+.button-input:hover {
+	border-color: black;
+}
+
+section {
+	background-image: url('Image/image-3.png');
+	background-size: cover;
+	height: 32rem;
+	margin-top: 7rem;
+
+}
+
+.email-title {
+	margin-top: 8.75rem;
+}
+
+.email-text {
+	margin-top: 2.5rem;
+}
+
+.email-input {
+	margin-top: 4.125rem;
+}
+
+.button-input-email {
+	color: white;
+	text-decoration: none;
+	background: red;
+	border-color: red;
+	width: 45.5rem;
+	height: 3.43rem;
+	border-radius: 0.2rem;
+	font-size: 1.125rem;
+	border-style: solid;
+}
+
+.input-email-1 {
+	height: 4.375rem;
+	width: 21.25rem;
+	background: rgb(229, 229, 229);
+	border-radius: 0.5rem;
+	border: none;
+}
+
+.input-email-2 {
+	height: 4.375rem;
+	width: 21.25rem;
+	background: rgb(229, 229, 229);
+	border-radius: 0.5rem;
+	border: none;
+}
+
+.input-email-3 {
+	background: rgb(229, 229, 229);
+	width: 45rem;
+	height: 15.5625rem;
+	border-radius: 0.5rem;
+	border: none;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+.background-c {
+	background: #2d2d2d;
+}
+
+.contact-c {
+	font-size: 1.125rem;
+	color: white;
+}
+
+.contact-c-text {
+	font-size: 1rem;
+	color: white;
+	margin-top: 2.6rem;
+	margin-bottom: 1.8rem;
+}
+.contact-email {
+	color: white;
+	font-size: 1rem;
+	text-decoration: none;
+}
+.contact-list {
+	margin-top: 8.8rem;
+}
+
+footer {
+	background: #2d2d2d;
+	height: 6.8rem;
+	margin-top: 6.8rem;
+	color: white;
+}
+.footer {
+	margin-top: 2.5rem;
+}
+
+
+
