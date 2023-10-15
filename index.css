@@ -1,240 +1,217 @@
-html {
-    scroll-behavior: smooth;
-}
-body {
-    margin: 0;
-    padding: 0;
-    width: 1366px;
-}
-main {
-    display: grid;
-}
-.header {
-  background: #262626;
-  position: fixed;
-  top: 0px;
-  width: 100vw;
-  height: 100px;
-  z-index: 25;
-}
-.logo {
-  font-size: 50px;
-  color: rgb(216, 179, 7);
-  line-height: 1.2;
-  -moz-transform: matrix( 1.04895833333333,0,0,1.04895104895105,0,0);
-  -webkit-transform: matrix( 1.04895833333333,0,0,1.04895104895105,0,0);
-  -ms-transform: matrix( 1.04895833333333,0,0,1.04895104895105,0,0);
-  position: absolute;
-  left: 73.3px;
-  top: 28.15px;
-  z-index: 26;
-}
-
-.header-nav {
-    margin: 0;
-    width: 50%;
-    display: flex;
-    justify-content: space-between;
-    padding-left: 45%;
-    padding-top: 3%;
+@font-face {
+	font-family: mont-normal;
+	src: url("fonts/Mont/mont_extralightdemo.ttf");
 
 }
-.header-nav-item {
-    list-style-type: none;
+@font-face {
+	font-family: mont-heavy;
+	src: url("fonts/Mont/mont_heavydemo.ttf");
+
 }
-.header-link {
-    text-decoration: none;
-    color: #a08513;
+@font-face {
+	font-family: emoji-one;
+	src: url("fonts/EmojiOneColor.ttf");
 }
-.header-link:hover {
-  font-size: 25px;
-  color: rgb(255, 255, 255);
-  text-decoration: underline;
-  line-height: 1.2;
-  transition: 0.5s;
+@font-face {
+	font-family: myriad-condit;
+	src: url("fonts/Myriad Pro/MYRIADPRO-CONDIT.OTF");
 }
 
-.portfolio {
-    margin: 0;
-    padding: 0;
+header {
+	background: rgb(45, 168, 149);
 }
-.background-image {
-  background-image: url("images/image-1.png");  
-  width: 100vw;
-  height: 100vh;
-  background-repeat: no-repeat;
-  margin: 0;
-  padding: 0;
-  opacity: 95%;
-}
-.slider {
-    width: 1200px;
-    height: 525px;
-    position: absolute;
-    left: 15%;
-    top: 25%;
-    z-index: 22;
-    display: flex;
-    justify-content: space-between;
+.nav-bat {
+	text-decoration: none;
+	color: white;
+	font-family: mont-normal;
+	font-size: 2.1rem;
+	background: none;
+	border: none;
 }
 
-.button-slider {
-    opacity: 90%;
-}
-
-.button-left {
-    width: 50px;
-    height: 50px;
-    background-color: rgb(55, 64, 74);
-    border-radius: 50%;
-
-    margin-top: 20%;
-}
-.button-right {
-    width: 50px;
-    height: 50px;
-    background-color: rgb(55, 64, 74);
-    border-radius: 50%;
-    margin-top: 20%;
-}
-
-.portfolio-image {
-    background-image: url("images/image-2.png");
-    width: 920px;
-    height: 520px;
-    background-repeat: no-repeat;
-    opacity: 100%;
-    border-style: solid ;
-    border-color: rgba(216, 179, 7, 0.5);
-}
-.previous {
-    color: white;
-    text-align: center;
-    margin-top: 15%;
-    font-size: 30px;
-}
-.next {
-    color: white;
-    text-align: center;
-    margin-top: 15%;
-    font-size: 30px;
-}
-
-.text:hover {
-    text-decoration: underline;
-    cursor: pointer;
-    font-size: 40px;
-    transition: 0.5s;
-}
-.button-slider:hover {
-    opacity: 100%;
-    width: 60px;
-    height: 60px;
-    transition: 0.5s;
-}
-.portfolio-image:hover {
-    opacity: 90%;
-    transition: 0.5s;
-}
-
-.about-me {
-    background-color: rgb(38, 38, 38);
-    margin: 0;
-    padding: 0;
-    width: 100vw;
-    height: 100vh;
-}
-.title {
-
-  font-size: 29px;
-  color: grey;
-  text-align: justify;
-  width: 90%;
-  height: 650.973px;
-  padding: 3%;
+.nav-bat:hover {
+	border: solid 1px;
+	border-color: black;
+	color: black;
+	border-radius: 20px;
 
 }
 
-.contacts-section {
-    margin: 0;
-    padding: 0;
-}
-.background-image-cont {
-    background-image: url("images/image-3.png");  
-  width: 100vw;
-  height: 510px;
-  background-repeat: no-repeat;
-  margin: 0;
-  padding: 0;
-  opacity: 95%;
-}
-
-.contacts-data {
-    width: 400px;
-    margin-left: 50%;
-    padding-top: 5%;
-    font-size: 25px;
-}
-.data {
-    padding-left: 10%;
-    color: white;
-}
-
-.data-title {
-    color: white;
-}
-
-.data-link {
-    text-decoration: none;
-    color: white;
-    color: rgb(198, 149, 198);
+.language {
+	font-family: mont-normal;
+	font-size: 2.1rem;
+	color: white;
 
 }
-.data-link:hover {
-    text-decoration: underline;
-}
-.blue {
-    background: none;
-    color: rgb(96, 180, 180);
-}
-.white {
-    background: none;
-    color: white;
-}
-.data-title {
-    color: rgb(198, 149, 198);
+.form-check-input {
+	font-size: 2.1rem;
 }
 
-.footer {
-    display: grid;
+.Aleksey {
+	font-family: mont-heavy;
+	color: rgb(84, 78, 78);
+	line-height: 1.25;
 }
 
-.background-footer {
-    background-color: rgb(38, 38, 38);
-    width: 100vw;
-    height: 150px;
-    margin: 0;
-    padding: 0;
-    
-}
-.text-footer {
-    text-align: center;
-    color: white;
-    padding-top: 3%;
+.frontend {
+	font-family: mont-normal;
+	color: rgb(84, 78, 78);
+	line-height: 1.25;
 }
 
-@media (max-width: 768px) {
-    .logo {
-  font-size: 15px;
-  color: rgb(216, 179, 7);
-  line-height: 1.2;
-  -moz-transform: matrix( 1.04895833333333,0,0,1.04895104895105,0,0);
-  -webkit-transform: matrix( 1.04895833333333,0,0,1.04895104895105,0,0);
-  -ms-transform: matrix( 1.04895833333333,0,0,1.04895104895105,0,0);
-  position: absolute;
-  left: 73.3px;
-  top: 28.15px;
-  z-index: 26;
+.dialog {
+	font-family: emoji-one;
 }
 
+.card-header {
+	font-family: mont-heavy;
+	background-color: rgba(45, 168, 149, 0.7);
+	color: white;
+	line-height: 2rem;
+	font-size: 2rem;
 }
+.card {
+	border: solid 0.9rem;
+	border-color: rgb(45, 168, 149);
+	border-radius: 50px;
+}
+
+.btn {
+	border: none;
+	border-radius: 45px;
+	width: 249px;
+  	height: 94px;
+  	background-color: rgba(38, 120, 196, 0.7);
+  	font-family: myriad-condit;
+  	font-size: 47px;
+}
+
+.section-portfolio {
+	background: rgb(45, 168, 149);
+}
+
+.btn-car {
+	background-color: white;
+	border: none;
+	width: 5.3rem;
+	height: 2.9rem;
+	border-radius: 1.5rem;
+	box-shadow: 0 0 10px #fff;
+	color: rgb(37, 147, 130);
+	ont-size: 60px;
+  	font-family: "Arial";
+	line-height: 1;
+	font-weight: bolder;
+}
+
+.btn-car:hover {
+	background-color: rgb(43, 164, 145);
+	border: none;
+	width: 5.3rem;
+	height: 2.9rem;
+	border-radius: 1.5rem;
+	box-shadow: inset 1px 1px 10px -1px;
+}
+
+.image-bord {
+	border: 10px solid;
+	border-color: rgb(255, 255, 255, 0.9);
+	border-radius: 25px;
+}
+
+.portfolio-text {
+	font-family: mont-heavy;
+	color: white;
+}
+.cont-text {
+	color: #544e4e;
+	font-family: mont-normal;
+}
+
+mark {
+	color: #544e4e;
+	font-family: mont-heavy;
+	background: none;
+}
+
+.icon-cont-start {
+	border: 2px solid black;
+  	border-bottom: 0;
+  	border-top-right-radius: 10px;
+  	border-top-left-radius: 10px;
+
+
+}
+.icon-cont {
+	border: 2px solid black;
+  	border-top: 0;
+  	border-bottom: 0;
+}
+.icon-cont-end {
+	border: 2px solid black;
+  	border-top: 0;
+  	border-bottom-right-radius: 10px;
+  	border-bottom-left-radius: 10px;
+}
+
+
+
+.icon-text {
+	font-family: mont-normal;
+	font-size: 2rem;
+	color: #544e4e;
+	text-decoration: none;
+}
+.icon {
+}
+
+.icon:hover .icon-text,
+.icon:hover .icon-hover {
+		background-color: rgb(45, 168, 149);
+		color: white;
+}
+
+.mail {
+	font-family: mont-heavy;
+	font-size: 2rem;
+	text-decoration: none;
+	color: white;
+	background-color: rgb(45, 168, 149);
+	border: 1px solid black;
+	border-radius: 15px;
+}
+
+.mail-text {
+	font-family: mont-heavy;
+	font-size: 3vw;
+	text-decoration: none;
+	color: white;
+	background-color: rgb(45, 168, 149);
+}
+
+.mail:hover {
+	text-decoration: underline;
+	color: white;
+}
+
+.mail-text:hover {
+	color: white;
+}
+
+footer {
+
+	background: rgb(45, 168, 149);
+	color: white;
+
+}
+
+.Valeria {
+	text-decoration: none;
+	color: white;
+}
+
+.Valeria:hover {
+	text-decoration: underline;
+	color: #544e4e;
+}
+
